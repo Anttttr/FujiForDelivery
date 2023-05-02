@@ -1,0 +1,39 @@
+
+@media (max-width: 1920px){
+    input{
+        width: 100%;
+        max-width: 472px;
+        text-align: 'center';
+        border: 1px solid black;
+        border-radius: 4px;
+    }
+    .que{
+        max-width: 470px;
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 5px;
+    }    
+    .queform{
+        padding-bottom : 25px;
+    }
+}
+
+@media (max-width: 576px){
+    input{
+        width: 100%;
+        text-align: 'center';
+        border: 1px solid black;
+        border-radius: 4px;
+    }  
+    .que{
+        width: 100%;
+        text-align: 'center';
+        border: 1px solid black;
+        border-radius: 5px;
+    }  
+    .queform{
+        width:100%;
+        padding-bottom: 25px;
+    }
+}
+

@@ -1,0 +1,128 @@
+
+.menu-top{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    width: 100%;
+    justify-content: flex-end;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+a{
+    text-decoration: none;
+    color: #212529
+}
+
+.header-front{
+    display: flex;
+    margin-bottom: 0;
+    max-height: 60px;
+    align-items: center;
+}
+.ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+@media (max-width: 1920px){
+    p {
+        max-width: 470px;
+    }
+    .menu-top{
+        padding-inline-start: 40px;
+    }
+    .logo-top{
+        max-width: 190px;
+       }
+    .li{
+        display: inline-block;
+        list-style-type:none;
+        line-height: 22px;
+        width: 100%;
+        max-width: 228px;
+        margin-top: 15px;
+        border-radius: 5px;
+        margin-bottom: -9px; 
+    }
+    .container{
+        max-width: 1140px;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .button{
+        color: #ff0000;
+        cursor: pointer;
+        border: 1px solid #ff0000;
+        font-weight: 600;
+        text-transform: lowercase;
+        display: block;
+        line-height: 22px;
+        width: 100%;
+        max-width: 228px;
+        border-radius: 5px;
+        margin-bottom: -9px; 
+        background: #FFFFFF;
+    }
+    .button:hover, .button:focus {
+        color: #fff;
+        outline: 0;
+    }
+    .first {
+        -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+        transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    }
+    .first:hover {
+        box-shadow: 0 0 40px 40px #e74c3c inset;
+    }
+}
+@media (max-width: 576px){
+
+    .menu-top{
+        padding-inline-start: 10px;
+    }
+    .logo-top{
+        max-width: 140px;
+       }
+    .li{
+        display: inline-block;
+        list-style-type:none;
+        line-height: 22px;
+        width: 100%;
+        max-width: 170px;
+        margin-top: 15px;
+        border-radius: 5px;
+        margin-bottom: -9px; 
+    }
+    .container{
+        width: 100%;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .button{
+        color: #ff0000;
+        cursor: pointer;
+        border: 1px solid #ff0000;
+        font-weight: 600;
+        text-transform: lowercase;
+        display: block;
+        line-height: 22px;
+        width: 100%;
+        max-width: 180px;
+        border-radius: 5px;
+        margin-bottom: -9px; 
+        background: #FFFFFF;
+    }
+}
+
